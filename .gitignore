@@ -8,3 +8,4 @@ finalize-ui.mjs
 update-methodology.mjs
 unlimit-operations.mjs
 partial-batches.mjs
+remove-decor.mjs
