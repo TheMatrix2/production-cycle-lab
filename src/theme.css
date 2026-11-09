@@ -1,0 +1,28 @@
+.theme-toggle{border:1px solid #42566a;border-radius:4px;padding:11px 14px;background:transparent;color:#d5e6e9;font:600 12px Manrope,Arial,sans-serif;white-space:nowrap;cursor:pointer}.theme-toggle:hover{border-color:#49d0bd}.theme-toggle:focus-visible{outline:2px solid #83ebdb;outline-offset:2px}
+:root[data-theme='light']{color-scheme:light;color:#1b3441;background:#f1f5f5}
+[data-theme='light'] body{background:#f1f5f5;color:#1b3441}
+[data-theme='light'] header{background:#fff;border-color:#d6e2e3}
+[data-theme='light'] .outline,[data-theme='light'] .theme-toggle{color:#24434d;border-color:#a9c0c3;background:#fff}
+[data-theme='light'] .outline:hover,[data-theme='light'] .theme-toggle:hover{border-color:#0c8377;background:#f1fbf9}
+[data-theme='light'] h1 em{color:#58737d}
+[data-theme='light'] .intro p,[data-theme='light'] .content-title p{color:#536e77}
+[data-theme='light'] .intro-mark{color:#9eb7bc}[data-theme='light'] .intro-mark span{color:#5d9895}
+[data-theme='light'] aside,[data-theme='light'] .timeline,[data-theme='light'] .analysis{background:#fff;border-color:#cfdddf}
+[data-theme='light'] .timeline.selected{border-color:#85bcb3}
+[data-theme='light'] .panel-head h2,[data-theme='light'] .content-title h2,[data-theme='light'] .timeline h3,[data-theme='light'] .analysis h3{color:#1b3441}
+[data-theme='light'] .tiny,[data-theme='light'] .metrics span,[data-theme='light'] .legend{color:#5b7881}
+[data-theme='light'] .control{color:#294852}[data-theme='light'] .section-label{color:#08796b}[data-theme='light'] .section-label span{color:#486671}[data-theme='light'] .section-label:after{background:#d5e2e3}
+[data-theme='light'] .number,[data-theme='light'] .control-row select,[data-theme='light'] .operation input{background:#f3f8f8;border-color:#b9cccf;color:#193b44}
+[data-theme='light'] .number input{color:#193b44}[data-theme='light'] .number small,[data-theme='light'] .control-row small,[data-theme='light'] .hint,[data-theme='light'] .aside-note,[data-theme='light'] .op-header{color:#59747d}
+[data-theme='light'] .operation b,[data-theme='light'] .reset,[data-theme='light'] .operation button,[data-theme='light'] .section-label button,[data-theme='light'] .text-button{color:#087a6c}
+[data-theme='light'] .metrics{background:#fff;border-color:#cfdddf}[data-theme='light'] .metrics>div{border-color:#d6e2e3}[data-theme='light'] .metrics strong{color:#183b43}[data-theme='light'] .metrics strong small,[data-theme='light'] .metrics p{color:#5b747d}
+[data-theme='light'] .movement-tabs button{background:#fff;border-color:#c5d9db;color:#36535d}[data-theme='light'] .movement-tabs button[aria-selected=true]{background:#e0f5f0;border-color:#279488;color:#123d37}[data-theme='light'] .movement-tabs small{color:#08796b}
+[data-theme='light'] .axis{fill:#526d75}[data-theme='light'] svg line[stroke='#26384a'],[data-theme='light'] svg line[stroke='#304658'],[data-theme='light'] svg line[stroke='#405268']{stroke:#d2dfe0}
+[data-theme='light'] svg line[stroke='#fff']{stroke:#244c54}[data-theme='light'] svg polyline[stroke='#e9f2f4']{stroke:#244b53}[data-theme='light'] svg polyline[stroke='#45d3bf']{stroke:#087f70}
+[data-theme='light'] .cost-legend,[data-theme='light'] .curve-grid p,[data-theme='light'] .cost-readout,[data-theme='light'] .chart-footer,[data-theme='light'] .scroll-hint{color:#49656e}
+[data-theme='light'] .cost-legend span:nth-child(3) i{background:#244b53!important}[data-theme='light'] .curve-grid b{color:#9c5a10}
+[data-theme='light'] .note{background:#e7f4f1;border-color:#169c8b;color:#365b5a}[data-theme='light'] .note b{color:#1a4944}
+[data-theme='light'] .chart-footer,[data-theme='light'] .cost-chart{border-color:#d6e2e3}[data-theme='light'] footer{color:#69828a}
+[data-theme='light'] .overlay{background:#182b35a8}[data-theme='light'] .modal{background:#fff;border-color:#c5d9db;color:#35535d}[data-theme='light'] .modal h2,[data-theme='light'] .modal h3{color:#183a43}[data-theme='light'] .modal a{color:#08796b}[data-theme='light'] .close{color:#45636b}
+[data-theme='light'] .math-block{background:#eef7f5;color:#154b43;border-color:#188e7e}
+@media(max-width:550px){.header-right{gap:8px}.theme-toggle{padding:10px;font-size:10px}}

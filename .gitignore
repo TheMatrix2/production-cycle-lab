@@ -9,3 +9,4 @@ update-methodology.mjs
 unlimit-operations.mjs
 partial-batches.mjs
 remove-decor.mjs
+theme-install.mjs
